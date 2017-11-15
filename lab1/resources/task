@@ -1,0 +1,15 @@
+################################# Binary confusion matrix based measures #################################
+
+1. Построить таблицу сопряженности по заданным результатам бинарной классификации.
+2. Рассчитать показатели, основанные на таблице сопряженности: error rate, accuracy, sensitivity, specificity, precision, fall-out, F1-score, Cohen’s kappa.
+3. Построить график зависимости F().
+4. Построить графики зависимости чувствительности и специфичности от объёма выборки.
+5. Сравнить значения показателей, основанных на таблице сопряженности,  для случая, если положительные и отрицательные классы инвертированы (т.е. если все метки +1 заменить на -1, и все метки -1 – на +1).
+6. Сделать выводы о качестве классификации на основе рассчитанных значений показателей.
+
+Указания
+В п.4 сохранять пропорции классов.
+
+Литература
+1. Ferri, C., Hernández-Orallo, J., & Modroiu, R. (2009). An experimental comparison of performance measures for classification. Pattern Recognition Letters, 30(1), 27-38.
+2. Freeman, E. A., & Moisen, G. G. (2008). A comparison of the performance of threshold criteria for binary classification in terms of predicted prevalence and kappa. Ecological Modelling, 217(1), 48-58.
