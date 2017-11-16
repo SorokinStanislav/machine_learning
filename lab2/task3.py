@@ -4,7 +4,7 @@ from matplotlib.ticker import AutoMinorLocator
 
 from lab2.kernel_functions import box_kernel
 from lab2.variance import variance
-from lab2.bias import bias, true_pdf
+from lab2.bias import true_pdf
 from lab2.task1 import silverman_bandwidth, general_naive_density_estimator
 from lab2.variance import random_half_data
 
@@ -15,11 +15,8 @@ def task3(data):
     silverman_densities = np.zeros((130, 50))
     small_densities = np.zeros((130, 50))
     large_densities = np.zeros((130, 50))
-    general_counter = 0
-    counter = 0
 
     for k in range(0, 50):
-        general_counter += counter
         counter = 0
         for x in np.arange(-3, 10, 0.1):
             rand_data = sorted(random_half_data(data))

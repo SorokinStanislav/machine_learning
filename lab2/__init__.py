@@ -5,6 +5,7 @@ from matplotlib.ticker import AutoMinorLocator
 from lab2.task1 import task1
 from lab2.task2 import task2
 from lab2.task3 import task3
+from lab2.task4 import task4
 
 
 def read_data():
@@ -30,7 +31,8 @@ data = read_data()
 # visualize_input_data(data)
 # task1(data)
 # task2(data)
-task3(data)
+# task3(data)
+task4(data)
 
 exit(0)
 
