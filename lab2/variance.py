@@ -7,5 +7,5 @@ def random_half_data(data):
     return random.sample(data, half_size)
 
 
-def variance(naive_density_value):
-    return np.std(naive_density_value) ** 2
+def variance(naive_density_values):
+    return np.std(naive_density_values) ** 2
