@@ -3,6 +3,7 @@ import matplotlib.pyplot as plt
 from matplotlib.ticker import AutoMinorLocator
 
 from lab2.task1 import task1
+from lab2.task2 import task2
 
 
 def read_data():
@@ -27,6 +28,7 @@ def visualize_input_data(input_data):
 data = read_data()
 visualize_input_data(data)
 task1(data)
+task2(data)
 
 exit(0)
 
