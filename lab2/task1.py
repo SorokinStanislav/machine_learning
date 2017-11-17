@@ -39,6 +39,7 @@ def general_naive_density_estimator(x, data, bandwidth, kernel_function):
 def task1(data):
     sorted_data = sorted(data)
     silverman_band = silverman_bandwidth(data)
+    print(silverman_band)
     small_band = 0.1
     large_band = 3
     val = 0.
