@@ -31,10 +31,10 @@ def visualize_input_data(input_data):
 data = read_data()
 visualize_input_data(data)
 task1(data)
-# task2(data)
-# task3(data)
-# task4(data)
-# task5(data)
+task2(data)
+task3(data)
+task4(data)
+task5(data)
 
 exit(0)
 
